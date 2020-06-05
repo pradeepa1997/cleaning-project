@@ -16,34 +16,56 @@
 
 <body>
     <header id="header">
-        <nav class="nav-menu">
-            <div class="nav-logo">
-                LOGO
-                <!-- <img src="image/logo.png" alt="" /> -->
+        <div class="header-detail">
+            <div style="margin: auto;">
+                <div class="detail">
+                    <i class="fa fa-map-marker fa-3x" aria-hidden="true"></i>
+                    <div class="big-text">
+                        No.164/A,Thudella , Ja ela
+                    </div>
+                </div>
+                <div class="detail">
+                    <i class="fa fa-phone fa-3x" aria-hidden="true"></i>
+                    <div class="big-text">
+                        +94 11-2231668, +94 77-2414931, +94 77-1535759
+                    </div>
+                </div>
+                <div class="detail">
+                    <i class="fa fa-envelope-o fa-3x" aria-hidden="true"></i>
+                    <div class="big-text">
+                        info@supercleaningservicelanka.com
+                    </div>
+                </div>
             </div>
             
+            
+            
+            <!-- hi -->
+        </div>
+        <nav class="nav-menu1" id="navbar"> 
             <ul>
               <li class="active"><a href="index.html">Home</a></li>
               <li><a href="#about">About</a></li>
               <li><a href="#services">Services</a></li>
               <li><a href="#portfolio">Contact Us</a></li>
-              <li><a href="#team">Team</a></li>
             </ul>
           </nav>
           <div class="slider">
               <div class="img-overlay">
 
               </div>
-            <div class="icon icon-pre">
-                <i class="fa fa-angle-left fa-3x" aria-hidden="true"></i>
+            <div class="icon icon-pre" onclick="pre()">
+                <i class="fa fa-angle-left fa-3x" aria-hidden="true" ></i>
             </div>
-            <div class="icon icon-next">
+            <div class="icon icon-next" onclick="next()">
                 <i class="fa fa-angle-right fa-3x" aria-hidden="true"></i>
             </div>
-            <div class="dot dot1"></div>
-            <div class="dot dot2"></div>
-            <div class="dot dot3"></div>
-            <img src="./image/slider1.jpg" />
+            <div class="dot" id="dot1"></div>
+            <div class="dot" id="dot2"></div>
+            <div class="dot" id="dot3"></div>
+            <img src="./image/slider1.jpg" id="slider1"/>
+            <img src="./image/slider2.jpg" id="slider2"/>
+            <img src="./image/slider3.jpg" id="slider3"/>
           </div>
     </header>
     <div style="height: 3000px;">
@@ -51,6 +73,7 @@
 
     </div>
     <h1>Hello world</h1>
+    <script src="./js/slider.js"></script>
     <script src="./js/home.js"></script>
 </body>
 
