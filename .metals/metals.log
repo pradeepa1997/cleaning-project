@@ -1,0 +1,3 @@
+2020.06.06 06:45:56 INFO  started: Metals version 0.9.0 in workspace 'E:\Projects\cleaning-project'
+2020.06.06 06:45:58 INFO  time: initialize in 2.19s
+2020.06.06 06:45:59 WARN  no build tool detected in workspace 'E:\Projects\cleaning-project'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 

@@ -19,8 +19,23 @@ function next(){
 function pre(){
     document.getElementById("slider"+((image%3)+1).toString()).style.display="none";
     document.getElementById("dot"+((image%3)+1).toString()).style.backgroundColor="transparent";
-    image--;
+    if(image === 0){
+        image=2;
+    }else{
+        image--;
+    }
+    
     document.getElementById("slider"+((image%3)+1).toString()).style.display="block";
     document.getElementById("slider"+((image%3)+1).toString()).style.display="block";
     document.getElementById("dot"+((image%3)+1).toString()).style.backgroundColor="white";
 }
+function select(id){
+    
+    document.getElementById("slider"+((image%3)+1).toString()).style.display="none";
+    document.getElementById("dot"+((image%3)+1).toString()).style.backgroundColor="transparent";
+    image=id;
+    document.getElementById("slider"+((image%3)+1).toString()).style.display="block";
+    document.getElementById("slider"+((image%3)+1).toString()).style.display="block";
+    document.getElementById("dot"+((image%3)+1).toString()).style.backgroundColor="white";
+}
+
