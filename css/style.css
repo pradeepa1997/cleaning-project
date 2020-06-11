@@ -254,9 +254,11 @@ div{
     border-radius: 50%;
     border: 2px solid white;
     top:96%;
+    z-index: 1;
     /* background-color: red; */
 }
 #dot1{
+    
     left: calc(45% - 15px);
     background-color: white;
 }
@@ -402,6 +404,15 @@ border-radius: 0%;
   color: black;
   background-color:yellow;
   display: inline-block;
+}
+.why-choose .fa{
+  color:white;
+  background-color: transparent;
+  font-size: 30px;
+  padding-right: 10px;
+  margin-right: 10px;
+  border-right: 1px solid white;
+  /* height: 100px; */
 }
 
 

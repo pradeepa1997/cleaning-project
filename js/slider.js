@@ -30,6 +30,7 @@ function pre(){
     document.getElementById("dot"+((image%3)+1).toString()).style.backgroundColor="white";
 }
 function select(id){
+    console.log(id)
     
     document.getElementById("slider"+((image%3)+1).toString()).style.display="none";
     document.getElementById("dot"+((image%3)+1).toString()).style.backgroundColor="transparent";
