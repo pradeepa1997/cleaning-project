@@ -287,10 +287,10 @@ div{
   margin: auto;
 }
 .service-main h1 {
-  padding-top: 100px;
+  padding-top: 180px;
   text-align: center;
 }
-.service-main h3{
+.subheading{
   color: rgb(0, 49, 211);
   
   text-align: center;
@@ -300,34 +300,52 @@ div{
   width: 100%;
   margin: auto;
 }
+.row-content{
+  padding-left: 100px;
+  padding-right: 100px;
+}
 .service-col{
   height: 400px;
   width: 300px;
   margin: auto;
-  border: 2px solid;
+  padding-top: 10px;
+  
+  /* border: 2px solid; */
   /* background-color: green; */
 }
+.middle{padding-top: 50px;}
 .image1,.image2,.image3{
-  margin-left:25px;
+  margin-left:10px;
+ 
   height: 250px;
   width: 250px;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   object-fit: cover;
 }
 .image1{
+  padding-top: 10px;  
   /* border-radius: 0%; */
   /*  */
 }
 .image2{
   border-radius: 0%;
+  height: 200px;
+  padding-top: 20px;  
   /* der: 3px solid; */
 }
 .image3{
 border-radius: 0%;
+height: 200px;
 }
 .service-topic{
   width: 33%;
   text-align: center;
+}
+
+.topic{
+  text-align: center;
+  font-size: large;
+  font-weight: 600;
 }
 
 
@@ -349,6 +367,7 @@ border-radius: 0%;
   padding-top: 2%;
   padding-left: 5%;
   font-size: 45px;
+  
 }
 .why-choose h3{
   padding-top: 2%;
@@ -455,6 +474,10 @@ border-radius: 0%;
 .gal-col:hover .gal-overlay{
   display: block;
   /* background-color: red ; */
+}
+.gal-image{
+  width: 100%;
+  height: 200px;
 }
 /* ================================== finish main container================= */
 
