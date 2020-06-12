@@ -40,16 +40,27 @@
             </div>
         </div>
         <nav class="nav-menu1" id="navbar">
-          <div>
+          <div >
             <ul>
               <li class="active"><a href="index.html">Home</a></li>
               <li><a href="#about">About</a></li>
-              <li class="nav-logo">Super Cleaning</li>
+              <li class="nav-logo"><span> <img src="./image/sparaylogo.jpg"/> Super Cleaning</span></li>
               <li><a href="#services">Services</a></li>
               <li><a href="#portfolio">Contact Us</a></li>
             </ul>
-          </div> 
+          </div>
+          
+          <i class="fa fa-bars " aria-hidden="true" onclick="dropDown()"></i>
+          <div class="nav-logo nav-logo-2" id="navlogo"><span><img src="./image/sparaylogo.jpg"/>Super Cleaning</span></div>
             
+           <div class="drop-down" id="drop-down">
+            <ul class="close" id="drop-down-ul">
+              <li ><a href="index.html">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfolio">Contact Us</a></li>
+            </ul>
+           </div>
           </nav>
           <div class="slider">
               <div class="img-overlay">
@@ -78,7 +89,7 @@
         </div>
         <div class="row row-content">
          
-          <div class="col-12 col-sm-3 col-md-3 service-col">
+          <div class="col-12 col-sm-3 col-md-3 ">
             <img src="./image/ava.jpg" class="image2"/>
             <p class="topic">Same Day Availability</p>
           </div>
@@ -95,8 +106,6 @@
 
       </div>
       <div class="why-choose">
-        <!-- <h1>Why Choose US</h1>
-        <h2>Best Cleaning Company in the Country</h2> -->
         <div class="row">
           <div class="col-6">
             <h1>Why Choose Us ?</h1>
@@ -175,7 +184,6 @@
           </div>
 
         </div>
-        <!-- <p class="col-8"></p> -->
       </div>
     </div>
     <footer id="footer">
@@ -226,7 +234,7 @@
             &copy; Copyright <strong><span>supercleaninglanka.lk</span></strong>. All Rights Reserved
         </div>
       </div>
-    </footer><!-- End Footer -->
+    </footer>
   
     
     <script src="./js/home.js"></script>
