@@ -10,8 +10,9 @@
     
 }
 
-
-
+.real-log{
+  margin-left: 15px;
+}
 
 
 /* ================================== start main container================= */
@@ -48,6 +49,10 @@
   padding-top: 10px;
   /* background-color: green; */
   /* border: 1px solid ; */
+}
+.sub_content{
+  color: gray;
+  font-size: 15px;
 }
 .middle-1{padding-top: 70px;}
 .middle-2{display:none;}
@@ -112,6 +117,7 @@ height: 200px;
   background-attachment:fixed;
   background-position: center;
   position: relative;
+  padding-top: 50px;
 
 }
 .why-choose .row{
@@ -133,7 +139,7 @@ height: 200px;
   float: left;
   width: 50%;
   /* background-color: red; */
-  height: 100px;
+  height: 80px;
   padding-top: 30px;
 }
 @media (max-width:1500px){
@@ -289,6 +295,13 @@ height: 200px;
   background-color: rgba(0, 0, 0, 0.3);
   width: 400px;
   height: 300px;
+}
+.text{
+  font-size: x-large;
+  padding: 120px 50px 120px 50px;
+  color: white;
+  font-weight: 700;
+  text-align: center;
 }
 .gal-col:hover .gal-overlay{
   display: block;
