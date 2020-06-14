@@ -291,6 +291,7 @@ height: 200px;
   padding-bottom: 50px;
 }
 .gal-col{
+  position: relative;
   margin: auto;
   margin-right:50px;
   margin-left:50px;
@@ -301,14 +302,7 @@ height: 200px;
   transition: all 0.4 ease-in-out;
 }
 
-.gal-overlay{
-  transition: all 0.4 ease-in-out;
-  position: absolute;
-  display: none;
-  background-color: rgba(0, 0, 0, 0.3);
-  width: 400px;
-  height: 300px;
-}
+
 .text{
   font-size: x-large;
   padding: 120px 50px 120px 50px;
@@ -316,11 +310,7 @@ height: 200px;
   font-weight: 700;
   text-align: center;
 }
-.gal-col:hover .gal-overlay{
-  display: block;
-  animation: overlay-come;
-  animation-duration: 0.5s;
-}
+
 .gal-image{
   width:100%;
   height:100%;
@@ -333,15 +323,27 @@ height: 200px;
     margin-bottom:40px;
   }
   .gal-col:hover .gal-overlay{
-    display: none;
+    display: block;
     animation: overlay-come;
     
   }
 }
+.gal-overlay{
+  position: absolute;
+  display: none;
+  background-color: rgba(0, 0, 0,0.5);
+  width: 400px;
+  height: 300px;
+}
 
 @keyframes overlay-come{
-  0%{width: 0px;height: 0px;}
-  100%{width:400px;height:300px;}
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+.gal-col:hover .gal-overlay{
+  display: block;
+  animation: overlay-come;
+  animation-duration: 1s;
 }
 /* ================================== finish main container================= */
 
