@@ -60,8 +60,24 @@
   margin-left:25px;
   height: 250px;
   width: 250px;
+  transition: all 0.34s ease-in-out;
   object-fit: cover;
   padding-top: 20px;
+}
+.image1:hover{
+  height: 275px;
+  width: 275px;
+}
+
+.image2:hover{
+  /* height: 275px; */
+  width: 275px;
+  padding-top: 0px;
+}
+
+.image3:hover{
+  height: 225px;
+  width: 275px;
 }
 .image2{
   border-radius: 0%;
