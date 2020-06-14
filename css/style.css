@@ -31,6 +31,11 @@
   width: 90%;
   margin: auto;
 }
+.service-text{
+  /* background-color: red; */
+  text-align: center;
+  margin: auto;
+}
 .service-main h1 {
   padding-top: 180px;
   text-align: center;
@@ -64,6 +69,7 @@
   margin-left:25px;
   height: 250px;
   width: 250px;
+  /* background-color: red; */
   transition: all 0.34s ease-in-out;
   object-fit: cover;
   padding-top: 20px;
@@ -74,9 +80,8 @@
 }
 
 .image2:hover{
-  /* height: 275px; */
   width: 275px;
-  padding-top: 0px;
+  height:225px;
 }
 
 .image3:hover{
@@ -303,7 +308,7 @@ height: 200px;
   margin-right:10px;
   margin-left:10px;
   margin-top:30px;
-  width: 500px;
+  width: 450px;
   height: 300px;
   display: inline-block;
   transition: all 0.4 ease-in-out;
@@ -339,7 +344,7 @@ height: 200px;
   position: absolute;
   display: none;
   background-color: rgba(0, 0, 0,0.5);
-  width: 500px;
+  width: 450px;
   height: 300px;
 }
 
