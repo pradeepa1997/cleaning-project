@@ -191,15 +191,15 @@
     animation-delay: 1s;
 }
 @keyframes text-animation-1{
-    0%{opacity: 0;top:-50vh}
+    0%{opacity: 0;top:-20vh}
     100%{opacity:1;top:0px}
 }
 @keyframes text-animation-2{
-    0%{opacity: 0;left:-50%;}
+    0%{opacity: 0;left:-20%;}
     100%{opacity:1;left:0px}
 }
 @keyframes text-animation-3{
-    0%{opacity: 0;left:50%}
+    0%{opacity: 0;left:20%}
     100%{opacity:1;left:0px}
 }
 .slider img{
