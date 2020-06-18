@@ -21,13 +21,13 @@
 #slidertext1 div span{
     padding-left:40px;
     padding-right:30px;
-    font-size:35px;
+    font-size:20px;
     margin-bottom: 40px;
     /* background-color: red; */
 }
 #slidertext1 div i{
     /* padding-left:30px; */
-    font-size:30px;
+    font-size:20px;
     padding-top:14px;
     /* padding-right:6px; */
     /* background-color: red; */
@@ -35,7 +35,7 @@
 #slidertext1 h2{
     padding-top:20px;
     display: block;
-    font-size: 50px;
+    font-size: 80px;
     /* background-color: yellow; */
 }
 @media(max-width:1000px){
@@ -87,7 +87,7 @@
     #slidertext1 h2{
         padding-top:20px;
         display: block;
-        font-size:30px;
+        font-size:90px;
         padding-right: 10px;
     }
 }
@@ -126,7 +126,7 @@
 }
 #slidertext2 h1,#slidertext3 h1{
 
-    font-size: 40px;
+    font-size: 90px;
     padding-top: 20px;
 }
 @media(max-width:600px){
