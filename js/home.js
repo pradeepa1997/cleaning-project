@@ -1,5 +1,5 @@
 window.onscroll = function() {scrollFunction()};
-//document.getElementById("header").style.display="none";
+document.getElementById("header").style.display="none";
 var dropdown=0;
 var temp=100+(screen.height*2);
 var flag=false;
