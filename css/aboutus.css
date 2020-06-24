@@ -1,5 +1,5 @@
 .aboutus-contain-main{
-    padding-top:500px;
+    padding-top:700px;
     height: 2000px;
     /* background-color: red; */
 }
@@ -7,7 +7,7 @@
     position: absolute;
     top:100px;
     width: 100%; 
-    height:400px;
+    height:600px;
     object-fit: cover;
     background: linear-gradient(rgb(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("../image/header1.jpeg");
@@ -17,7 +17,7 @@
   
 }
 .topic{
-    margin-top: 150px;
+    margin-top: 250px;
     text-align: center;
     font-weight: 500;
     color: azure;
@@ -26,4 +26,127 @@
     width: 100%; 
     height:400px;
     object-fit: cover;
+}
+.line-2{
+    height:2px;
+    width: 100px;
+    background-color: white;
+    margin-top: 10px;
+    margin-right:calc(50% + 15px) ;
+}
+.aboutus-content{
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 20px;
+    /* background-color: red; */
+    height:600px;
+}
+.aboutus-content h1{
+    /* width: 100%; */
+    width:calc(100% - 610px);
+    text-align: center;
+    padding-bottom: 50px;
+    /* padding-left: 20px; */
+}
+.aboutus-content-text{
+    position: absolute;
+    padding-left:5%;
+    padding-right: 5%;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    /* height: 100px; */
+    /* background-color: yellow; */
+    /* width: 100px; */
+    width:calc(100% - 600px);
+}
+.aboutus-content-image{
+    padding-top: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    position: absolute;
+    left:calc(100% - 580px);
+    width: 580px;
+    /* height: 100px; */
+    /* background-color: red; */
+    display: inline-block;
+}
+.aboutus-content-image-img{
+    width:500px;
+}
+@media(max-width:1000px){
+     
+}
+
+
+
+.aboutus-what-we-do{
+    min-height: 400px;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.aboutus-what-we-do h1{
+    text-align: center;
+    padding: 30px;
+}
+.aboutus-what-we-do-row{
+    width: 100%;
+    text-align: center;
+}
+.aboutus-what-we-do-col{
+    width: 400px;
+    display: inline-block;
+    height: 400px;
+    margin-right: 3%;
+    margin-top: 40px;
+    /* background-color: rebeccapurple; */
+}
+.aboutus-what-we-do-col img{
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.aboutus-what-we-do-col h3{
+    padding-top: 30px;
+    text-align: center;
+    padding-left: 10px;
+}
+.why-we-choose-us{
+    width: 100%;
+    min-height: 400px;
+    background-color: rgba(5, 5, 5,0.8);
+}
+.why-we-choose-us h1{
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+.why-we-choose-us-row{
+    width: 100%;
+    text-align: center;
+}
+.why-we-choose-us-col{
+    margin-top: 50px;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    /* background-color: whit   e; */
+}
+.why-we-choose-us-col .col-icon{
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+ /* color: red; */
+    position: relative;
+}
+.why-we-choose-us-col .fa{
+    font-size: 60px;
+    position: absolute;
+    left:calc(50% - 25px);
+ /* color: red; */
+}
+.why-we-choose-us-col h3{
+    color: white;
 }
