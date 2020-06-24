@@ -116,7 +116,7 @@
 .why-we-choose-us{
     width: 100%;
     min-height: 400px;
-    background-color: rgba(5, 5, 5,0.8);
+    background-color: rgb(8, 3, 44);
 }
 .why-we-choose-us h1{
     padding: 30px;
@@ -145,8 +145,19 @@
     font-size: 60px;
     position: absolute;
     left:calc(50% - 25px);
+    color: rgb(236, 171, 31);
  /* color: red; */
 }
 .why-we-choose-us-col h3{
     color: white;
 }
+/* .circle-icon {
+    background: rgb(0, 153, 204 );
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 30px;
+} */
