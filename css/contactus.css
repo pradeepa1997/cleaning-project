@@ -60,21 +60,23 @@
     width: 100%;
     /* background-color: yellow; */
     position:relative;
-    min-height: 800px;
+    min-height: 500px;
 }
 .contactus-detail{
-    height: 800px;
+    height: 600px;
     padding-left: 50px;
+    width: 100%;
     display: inline-block;
     position: absolute;
+    /* background-color: red; */
 
 }
 .contactus-row{
     width: 100%;
-    padding: 20px;
+    /* padding: 20px; */
     padding-left: 80px;
-    
-    height: 200px;
+    padding-top: 30px;
+    /* height: 200px; */
     /* padding-top: 100px; */
 }
 .contactus-row h3{
@@ -85,9 +87,16 @@
 
 }
 .contactus-data{
-    margin-top: 20px;
+    /* margin-top: 20px; */
     margin-left: 40px;
     font-size: 18px;
+}
+.content-img{
+    position: absolute;
+    left: 700px;
+    top:-100px;
+    /* padding-left:700px;  */
+    /* padding-top:100px; */
 }
 .contactus-row .fa{
     color: rgb(0, 153, 204 );
@@ -120,6 +129,7 @@
 }
 .map-location{
     margin-top: 100px;
+    margin-bottom:-6px;
 }
 .map-location h1{
     text-align: center;

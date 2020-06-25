@@ -3,8 +3,12 @@
 
 .aboutus-contain-main{
     padding-top:700px;
-    height: 2000px;
+    /* height: 2000px; */
     /* background-color: red; */
+}
+.aboutus-contain-main-header{
+    text-align: center;
+    margin-top: 40px;
 }
 .topic-background{
     position: absolute;
@@ -89,7 +93,7 @@
 
 
 .aboutus-what-we-do{
-    min-height: 400px;
+    min-height:400px;
     width: 100%;
     /* background-color: aqua; */
 }
@@ -98,21 +102,25 @@
     padding: 30px;
     padding-top: 50px;
 }
+.aboutus-what-we-do p{
+ 
+}
 .aboutus-what-we-do-row{
     width: 100%;
     text-align: center;
+    margin-top: 100px;
 }
 .aboutus-what-we-do-col{
-    width: 400px;
+    width: 500px;
     display: inline-block;
-    height: 400px;
-    margin-right: 3%;
+    height: 500px;
+    /* margin-right: 1%; */
     margin-top: 40px;
     /* background-color: rebeccapurple; */
 }
 .aboutus-what-we-do-col img{
-    width: 330px;
-    height: 330px;
+    width: 430px;
+    height: 430px;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -206,6 +214,27 @@
     border: 0.5px solid gray;
     
 }
+.inner-circle .shedule{
+    width: 165px;
+    position: absolute;
+    left: 36px;
+    top:50px;
+    /* border-radius: 50%; */
+}
+.inner-circle .weclean{
+    width: 140px;
+    position: absolute;
+    left:48px;
+    top:35px;
+    /* border-radius: 50%; */
+}
+.inner-circle .behappy{
+    width: 170px;
+    position: absolute;
+    left: 30px;
+    top:25px;
+    /* border-radius: 50%; */
+}
 .how-we-work-text{
     /* background-color: red; */
     display: inline-block;
@@ -221,8 +250,8 @@
     border: 2px solid rgb(0, 153, 204 );
     position: absolute;
     border-radius: 50%;
-    z-index: 3;
-    left:180px;
+    z-index:3;
+    left:165px;
     color: black;
 }
 .how-we-work-head-2{
