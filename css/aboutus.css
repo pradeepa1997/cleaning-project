@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+
 .aboutus-contain-main{
     padding-top:700px;
     height: 2000px;
@@ -14,6 +17,10 @@
     background-size:cover;
     background-repeat:no-repeat;
     background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position: center;
   
 }
 .topic{
@@ -161,3 +168,78 @@
     vertical-align: middle;
     padding: 30px;
 } */
+
+.how-we-work{
+    width: 100%; 
+    height:600px;
+    object-fit: cover;
+    background: linear-gradient(rgb(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../image/header1.jpeg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+}
+.how-we-work-row{
+    width: 100%;
+    /* padding-top: 175px; */
+}
+.circle-outline{
+    margin-top: 100px;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    /* margin-right: 10%; */
+    padding: 5px;
+    position: relative;
+}
+.inner-circle{
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    border: 0.5px solid gray;
+    
+}
+.how-we-work-text{
+    /* background-color: red; */
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    color: white;
+}
+.small-circle{
+    padding-top: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 2px solid rgb(0, 153, 204 );
+    position: absolute;
+    border-radius: 50%;
+    z-index: 3;
+    left:180px;
+    color: black;
+}
+.how-we-work-head-2{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 45px;
+}
+.how-we-work-head-1{
+    padding-top: 40px;
+    text-align: center;
+    color: rgb(0, 153, 204 );
+    font-family: 'Handlee', cursive;
+}
+.inner-circle .fa{
+    color: black;
+    font-size: 100px;
+    position: absolute;
+    left: 82px;
+    top:70px;
+}
