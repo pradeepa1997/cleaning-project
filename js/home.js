@@ -34,7 +34,7 @@ function scrollFunction(){
                     clearInterval(interval1);
                     document.getElementById("about-us-1").innerHTML="970";
                 }
-            },2)
+            },5)
             
             var interval2=setInterval(()=>{
                 i2+=10;
@@ -43,7 +43,7 @@ function scrollFunction(){
                     clearInterval(interval2);
                     document.getElementById("about-us-2").innerHTML="5,150";
                 }        
-            },7);
+            },17);
             var interval3=setInterval(()=>{
                 i3+=10;
                 document.getElementById("about-us-3").innerHTML=i3;
@@ -51,16 +51,16 @@ function scrollFunction(){
                     clearInterval(interval3);
                     document.getElementById("about-us-3").innerHTML="4,900";
                 }        
-            },7);
+            },17);
             document.getElementById("about-us-4").innerHTML="0";
             var interval4=setInterval(()=>{
                 i4++;
-                document.getElementById("about-us-4").innerHTML=i4;
-                if(i4==5){
+                document.getElementById("about-us-4").innerHTML=i4%6;
+                if(i4==400){
                     clearInterval(interval4);
                     document.getElementById("about-us-4").innerHTML="5 +";
                 }        
-            },100);
+            },25);
         }
     }
     if(document.body.scrollTop > 100 || document.documentElement.scrollTop > 100){
