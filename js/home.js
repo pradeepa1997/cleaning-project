@@ -90,8 +90,7 @@ async function dropDown() {
         document.getElementById("drop-down-ul").classList.add("close");
         setTimeout(()=>{
             document.getElementById("drop-down").style.display="none";
-        },400)
-        
+        },400);
     }
     dropdown++; 
 }

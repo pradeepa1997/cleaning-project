@@ -449,6 +449,22 @@ height: 200px;
     padding-left: 5px;
   } 
 }
+
+.our-customers{
+  /* background-color: red; */
+  margin-left: 0px;
+  text-align: center;
+}
+.our-customers-head{
+  text-align: center;
+  font-size: 60px;
+}
+.our-customers .col-4{
+  background-color: white;
+}
+.our-customers img{
+  width: 200px;
+}
 /* ================================== finish main container================= */
 
 
