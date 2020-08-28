@@ -12,6 +12,9 @@
     color: white;
     
 }
+#slider1,#slider2,#slider3{
+    background-position: top !important;
+}
 #slidertext1{
     display: block;
     position: relative;
