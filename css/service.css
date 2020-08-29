@@ -1,11 +1,21 @@
 .service-main{
-    padding-top: 650px;
+    padding-top: 600px;
     width: 100%;
     padding-bottom: 100px;
     
 }
-.service-col{
+
+.service-col {
+    /* height: 300px;
+    object-fit: cover; */
+
     margin-top: 60px;
+}
+.service-col img{
+    height: 300px;
+    object-fit: cover;
+
+    /* margin-top: 30px; */
 }
 .aboutus-contain-main-header{
     text-align: center;
@@ -48,7 +58,7 @@
 }
 .content{
     /* background-color: red; */
-    min-height: 100px;
-    position: static;
+    /* min-height: 100px; */
+    /* position: static; */
     margin-bottom: 0px;
    }

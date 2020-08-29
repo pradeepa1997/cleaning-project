@@ -1,5 +1,6 @@
 var image=0;
 
+
 setInterval(()=>{
     document.getElementById("slider"+((image%3)+1).toString()).style.display="none";
     document.getElementById("slidertext"+((image%3)+1).toString()).style.display="none";

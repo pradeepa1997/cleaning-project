@@ -1,6 +1,6 @@
 window.onscroll = function() {scrollFunction()};
 var dropdown=0;
-
+document.getElementById("navbar-ul").style.paddingLeft='0px';
 
 function scrollFunction(){
     
@@ -31,8 +31,9 @@ async function dropDown() {
         document.getElementById("drop-down-ul").classList.add("close");
         setTimeout(()=>{
             document.getElementById("drop-down").style.display="none";
-        },400)
+        },400);
         
     }
     dropdown++; 
 }
+document.getElementById("navbar-ul").style.paddingLeft='0px';
