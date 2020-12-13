@@ -10,3 +10,8 @@
 2020.06.15 15:26:35 INFO  started: Metals version 0.9.0 in workspace 'E:\Projects\cleaning-project'
 2020.06.15 15:26:42 INFO  time: initialize in 6.76s
 2020.06.15 15:26:51 WARN  no build tool detected in workspace 'E:\Projects\cleaning-project'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.13 07:10:31 INFO  Started: Metals version 0.9.7 in workspace 'E:\Projects\cleaning-project' for client vscode.
+2020.12.13 07:10:37 INFO  time: initialize in 6.43s
+2020.12.13 07:10:43 WARN  resetting database: E:\Projects\cleaning-project\.metals\metals.h2.db
+2020.12.13 07:10:44 WARN  Build server is not auto-connectable.
+2020.12.13 07:10:44 WARN  no build tool detected in workspace 'E:\Projects\cleaning-project'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
